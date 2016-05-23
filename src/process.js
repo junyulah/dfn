@@ -8,7 +8,7 @@ let process = (dfn, args, ctx) => {
     // guards
     for (let i = 0; i < dfn.guards.length; i++) {
         let guard = dfn.guards[i];
-        if (guard.condition(args)) {
+        if (guard.condition.apply(undefined, args)) {
             return guard.expression.apply(ctx, args);
         }
     }

@@ -1,6 +1,6 @@
 {
   "name": "dfn",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Dynamic Function Definition, using map pattern guard something.",
   "main": "index.js",
   "directories": {
